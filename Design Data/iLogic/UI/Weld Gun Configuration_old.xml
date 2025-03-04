@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Weld Gun Configuration</Name>
+  <Guid>16fb9283-8a2f-4a6d-af19-6f2a53858358</Guid>
+  <Items>
+    <UiElementSpec xsi:type="NumericParameterControlSpec">
+      <Name>Tip Force (kN)</Name>
+      <Guid>55d7643c-349f-46f5-b8e4-fd434e31bb95</Guid>
+      <ToolTip />
+      <ParameterName>tipForce_kN</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <TrackBarProperties>
+        <MinimumValue>1</MinimumValue>
+        <MaximumValue>10</MaximumValue>
+        <ValueIncrement>1</ValueIncrement>
+      </TrackBarProperties>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 1</Name>
+      <Guid>83ef0a88-852a-4c23-a79d-df3c989e36e5</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Hose Colour In</Name>
+      <Guid>6e97e522-bc33-455d-8524-82c154347e7c</Guid>
+      <ToolTip />
+      <ParameterName>hoseColour_IN</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Hose Colour Out</Name>
+      <Guid>ba6f5d3e-756e-453c-8bad-537366873118</Guid>
+      <ToolTip />
+      <ParameterName>hoseColour_OUT</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 2</Name>
+      <Guid>d650e709-3204-46c9-b980-51501717f21a</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Update Mass Properties</Name>
+      <Guid>7dfb709a-2bb0-47ee-b88b-49a45c0a9fdb</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>partUpdateMass</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\clfs\Engineering\CL655_Engineering\655 Engineering\WELDGUN ILOGIC\partUpdateMass.txt</Path>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>false</Modal>
+</FormSpecification>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTS" thumbnail="HTD-5M.jpg" measuresystem="metric" name="%1%" desc="%2%" profile="single">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="mm">5</Pitch>
+    <S src="fixed" dt="number" units="mm">3.1</S>
+    <ht src="fixed" dt="number" units="mm">2.1</ht>
+    <PitchOfst src="fixed" dt="number" units="mm">0.85</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">1.0</beta>
+    <Height src="fixed" dt="number" units="mm" >3.8</Height>
+    <ra src="fixed" dt="number" units="mm" >1.49</ra>
+    <rr src="fixed" dt="number" units="mm" >0.42</rr>
+    <Width0 src="fixed" dt="number" units="mm">15.0</Width0>
+    <Width src="table" dt="number" units="mm" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">50.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">60.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.096</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">44.5</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">1620.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="HTD-5M-305-9" >
+      <Size>HTD-5M-305-9</Size>
+      <Width>9</Width>
+      <Teeth>61</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-325-9" >
+      <Size>HTD-5M-325-9</Size>
+      <Width>9</Width>
+      <Teeth>65</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-350-9" >
+      <Size>HTD-5M-350-9</Size>
+      <Width>9</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-400-9" >
+      <Size>HTD-5M-400-9</Size>
+      <Width>9</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-450-9" >
+      <Size>HTD-5M-450-9</Size>
+      <Width>9</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-500-9" >
+      <Size>HTD-5M-500-9</Size>
+      <Width>9</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-575-9" >
+      <Size>HTD-5M-575-9</Size>
+      <Width>9</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-640-9" >
+      <Size>HTD-5M-640-9</Size>
+      <Width>9</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-700-9" >
+      <Size>HTD-5M-700-9</Size>
+      <Width>9</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-800-9" >
+      <Size>HTD-5M-800-9</Size>
+      <Width>9</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-890-9" >
+      <Size>HTD-5M-890-9</Size>
+      <Width>9</Width>
+      <Teeth>178</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-980-9" >
+      <Size>HTD-5M-980-9</Size>
+      <Width>9</Width>
+      <Teeth>196</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-1100-9" >
+      <Size>HTD-5M-1100-9</Size>
+      <Width>9</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-1200-9" >
+      <Size>HTD-5M-1200-9</Size>
+      <Width>9</Width>
+      <Teeth>240</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-1420-9" >
+      <Size>HTD-5M-1420-9</Size>
+      <Width>9</Width>
+      <Teeth>284</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-1595-9" >
+      <Size>HTD-5M-1595-9</Size>
+      <Width>9</Width>
+      <Teeth>319</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-1800-9" >
+      <Size>HTD-5M-1800-9</Size>
+      <Width>9</Width>
+      <Teeth>360</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-2000-9" >
+      <Size>HTD-5M-2000-9</Size>
+      <Width>9</Width>
+      <Teeth>400</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-2250-9" >
+      <Size>HTD-5M-2250-9</Size>
+      <Width>9</Width>
+      <Teeth>450</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-2525-9" >
+      <Size>HTD-5M-2525-9</Size>
+      <Width>9</Width>
+      <Teeth>505</Teeth>
+    </Member>
+	
+	 <Member moniker="HTD-5M-305-15" >
+      <Size>HTD-5M-305-15</Size>
+      <Width>15</Width>
+      <Teeth>61</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-325-15" >
+      <Size>HTD-5M-325-15</Size>
+      <Width>15</Width>
+      <Teeth>65</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-350-15" >
+      <Size>HTD-5M-350-15</Size>
+      <Width>15</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-400-15" >
+      <Size>HTD-5M-400-15</Size>
+      <Width>15</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-450-15" >
+      <Size>HTD-5M-450-15</Size>
+      <Width>15</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-500-15" >
+      <Size>HTD-5M-500-15</Size>
+      <Width>15</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-575-15" >
+      <Size>HTD-5M-575-15</Size>
+      <Width>15</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-640-15" >
+      <Size>HTD-5M-640-15</Size>
+      <Width>15</Width>
+      <Teeth>128</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-700-15" >
+      <Size>HTD-5M-700-15</Size>
+      <Width>15</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-800-15" >
+      <Size>HTD-5M-800-15</Size>
+      <Width>15</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-890-15" >
+      <Size>HTD-5M-890-15</Size>
+      <Width>15</Width>
+      <Teeth>178</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-980-15" >
+      <Size>HTD-5M-980-15</Size>
+      <Width>15</Width>
+      <Teeth>196</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-1100-15" >
+      <Size>HTD-5M-1100-15</Size>
+      <Width>15</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-1200-15" >
+      <Size>HTD-5M-1200-15</Size>
+      <Width>15</Width>
+      <Teeth>240</Teeth>
+    </Member>
+    <Member moniker="HTD-5M-1420-15" >
+      <Size>HTD-5M-1420-15</Size>
+      <Width>15</Width>
+      <Teeth>284</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-1595-15" >
+      <Size>HTD-5M-1595-15</Size>
+      <Width>15</Width>
+      <Teeth>319</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-1800-15" >
+      <Size>HTD-5M-1800-15</Size>
+      <Width>15</Width>
+      <Teeth>360</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-2000-15" >
+      <Size>HTD-5M-2000-15</Size>
+      <Width>15</Width>
+      <Teeth>400</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-2250-15" >
+      <Size>HTD-5M-2250-15</Size>
+      <Width>15</Width>
+      <Teeth>450</Teeth>
+    </Member>
+	 <Member moniker="HTD-5M-2525-15" >
+      <Size>HTD-5M-2525-15</Size>
+      <Width>15</Width>
+      <Teeth>505</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

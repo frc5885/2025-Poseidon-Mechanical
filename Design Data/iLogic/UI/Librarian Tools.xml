@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Librarian Tools</Name>
+  <Guid>5e85f655-9607-4ee8-ba6d-d7d1dde88bf2</Guid>
+  <Items>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Update Inventor Document</Name>
+      <Guid>46a2b45c-538d-4d97-9962-fdacee60967c</Guid>
+      <Font>
+        <FamilyName>Tahoma</FamilyName>
+        <Size>8.25</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>BringDrawingToCurrent_RunMultipleRules</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\cadshare\CAD Configuration\i-Logic\Rules\BringDrawingToCurrent_RunMultipleRules.txt</Path>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Find Mass Overridden Components</Name>
+      <Guid>5de41a36-d6bd-4e95-b2e2-59bb15430938</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>FindMassOverRiddenComponents</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\FindMassOverRiddenComponents.vb</Path>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>false</Modal>
+</FormSpecification>

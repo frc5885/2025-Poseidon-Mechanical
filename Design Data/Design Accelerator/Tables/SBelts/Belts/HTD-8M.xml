@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTS" thumbnail="HTD-8M.jpg" measuresystem="metric" name="%1%" desc="%2%" profile="single">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="mm">8</Pitch>
+    <S src="fixed" dt="number" units="mm">5.2</S>
+    <ht src="fixed" dt="number" units="mm">3.4</ht>
+    <PitchOfst src="fixed" dt="number" units="mm">1.3</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">1.0</beta>
+    <Height src="fixed" dt="number" units="mm" >6</Height>
+    <ra src="fixed" dt="number" units="mm" >2.5</ra>
+    <rr src="fixed" dt="number" units="mm" >0.7</rr>
+    <Width0 src="fixed" dt="number" units="mm">50.0</Width0>
+    <Width src="table" dt="number" units="mm" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">50.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">60.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.517</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">38.0</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">7220.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="HTD-8M-480-20" >
+      <Size>HTD-8M-480-20</Size>
+      <Width>20</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-560-20" >
+      <Size>HTD-8M-560-20</Size>
+      <Width>20</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-600-20" >
+      <Size>HTD-8M-600-20</Size>
+      <Width>20</Width>
+      <Teeth>75</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-640-20" >
+      <Size>HTD-8M-640-20</Size>
+      <Width>20</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-720-20" >
+      <Size>HTD-8M-720-20</Size>
+      <Width>20</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-800-20" >
+      <Size>HTD-8M-800-20</Size>
+      <Width>20</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-880-20" >
+      <Size>HTD-8M-880-20</Size>
+      <Width>20</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-960-20" >
+      <Size>HTD-8M-960-20</Size>
+      <Width>20</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1040-20" >
+      <Size>HTD-8M-1040-20</Size>
+      <Width>20</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1120-20" >
+      <Size>HTD-8M-1120-20</Size>
+      <Width>20</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1200-20" >
+      <Size>HTD-8M-1200-20</Size>
+      <Width>20</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1280-20" >
+      <Size>HTD-8M-1280-20</Size>
+      <Width>20</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1440-20" >
+      <Size>HTD-8M-1440-20</Size>
+      <Width>20</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1600-20" >
+      <Size>HTD-8M-1600-20</Size>
+      <Width>20</Width>
+      <Teeth>200</Teeth>
+    </Member>
+	<Member moniker="HTD-8M-1640-20" >
+      <Size>HTD-8M-1640-20</Size>
+      <Width>20</Width>
+      <Teeth>205</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1760-20" >
+      <Size>HTD-8M-1760-20</Size>
+      <Width>20</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1800-20" >
+      <Size>HTD-8M-1800-20</Size>
+      <Width>20</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2000-20" >
+      <Size>HTD-8M-2000-20</Size>
+      <Width>20</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2400-20" >
+      <Size>HTD-8M-2400-20</Size>
+      <Width>20</Width>
+      <Teeth>300</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2600-20" >
+      <Size>HTD-8M-2600-20</Size>
+      <Width>20</Width>
+      <Teeth>325</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2800-20" >
+      <Size>HTD-8M-2800-20</Size>
+      <Width>20</Width>
+      <Teeth>350</Teeth>
+    </Member>
+	<Member moniker="HTD-8M-480-30" >
+      <Size>HTD-8M-480-30</Size>
+      <Width>30</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-560-30" >
+      <Size>HTD-8M-560-30</Size>
+      <Width>30</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-600-30" >
+      <Size>HTD-8M-600-30</Size>
+      <Width>30</Width>
+      <Teeth>75</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-640-30" >
+      <Size>HTD-8M-640-30</Size>
+      <Width>30</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-720-30" >
+      <Size>HTD-8M-720-30</Size>
+      <Width>30</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-800-30" >
+      <Size>HTD-8M-800-30</Size>
+      <Width>30</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-880-30" >
+      <Size>HTD-8M-880-30</Size>
+      <Width>30</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-960-30" >
+      <Size>HTD-8M-960-30</Size>
+      <Width>30</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1040-30" >
+      <Size>HTD-8M-1040-30</Size>
+      <Width>30</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1120-30" >
+      <Size>HTD-8M-1120-30</Size>
+      <Width>30</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1200-30" >
+      <Size>HTD-8M-1200-30</Size>
+      <Width>30</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1280-30" >
+      <Size>HTD-8M-1280-30</Size>
+      <Width>30</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1440-30" >
+      <Size>HTD-8M-1440-30</Size>
+      <Width>30</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1600-30" >
+      <Size>HTD-8M-1600-30</Size>
+      <Width>30</Width>
+      <Teeth>200</Teeth>
+    </Member>
+	<Member moniker="HTD-8M-1640-30" >
+      <Size>HTD-8M-1640-30</Size>
+      <Width>30</Width>
+      <Teeth>205</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1760-30" >
+      <Size>HTD-8M-1760-30</Size>
+      <Width>30</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1800-30" >
+      <Size>HTD-8M-1800-30</Size>
+      <Width>30</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2000-30" >
+      <Size>HTD-8M-2000-30</Size>
+      <Width>30</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2400-30" >
+      <Size>HTD-8M-2400-30</Size>
+      <Width>30</Width>
+      <Teeth>300</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2600-30" >
+      <Size>HTD-8M-2600-30</Size>
+      <Width>30</Width>
+      <Teeth>325</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2800-30" >
+	  <Size>HTD-8M-2800-30</Size>
+      <Width>30</Width>
+      <Teeth>350</Teeth>
+    </Member>
+	<Member moniker="HTD-8M-480-50" >
+      <Size>HTD-8M-480-50</Size>
+      <Width>50</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-560-50" >
+      <Size>HTD-8M-560-50</Size>
+      <Width>50</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-600-50" >
+      <Size>HTD-8M-600-50</Size>
+      <Width>50</Width>
+      <Teeth>75</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-640-50" >
+      <Size>HTD-8M-640-50</Size>
+      <Width>50</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-720-50" >
+      <Size>HTD-8M-720-50</Size>
+      <Width>50</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-800-50" >
+      <Size>HTD-8M-800-50</Size>
+      <Width>50</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-880-50" >
+      <Size>HTD-8M-880-50</Size>
+      <Width>50</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-960-50" >
+      <Size>HTD-8M-960-50</Size>
+      <Width>50</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1040-50" >
+      <Size>HTD-8M-1040-50</Size>
+      <Width>50</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1120-50" >
+      <Size>HTD-8M-1120-50</Size>
+      <Width>50</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1200-50" >
+      <Size>HTD-8M-1200-50</Size>
+      <Width>50</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1280-50" >
+      <Size>HTD-8M-1280-50</Size>
+      <Width>50</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1440-50" >
+      <Size>HTD-8M-1440-50</Size>
+      <Width>50</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1600-50" >
+      <Size>HTD-8M-1600-50</Size>
+      <Width>50</Width>
+      <Teeth>200</Teeth>
+    </Member>
+	<Member moniker="HTD-8M-1640-50" >
+      <Size>HTD-8M-1640-50</Size>
+      <Width>50</Width>
+      <Teeth>205</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1760-50" >
+      <Size>HTD-8M-1760-50</Size>
+      <Width>50</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1800-50" >
+      <Size>HTD-8M-1800-50</Size>
+      <Width>50</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2000-50" >
+      <Size>HTD-8M-2000-50</Size>
+      <Width>50</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2400-50" >
+      <Size>HTD-8M-2400-50</Size>
+      <Width>50</Width>
+      <Teeth>300</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2600-50" >
+      <Size>HTD-8M-2600-50</Size>
+      <Width>50</Width>
+      <Teeth>325</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2800-50" >
+	  <Size>HTD-8M-2800-50</Size>
+      <Width>50</Width>
+      <Teeth>350</Teeth>
+    </Member>
+	<Member moniker="HTD-8M-480-85" >
+      <Size>HTD-8M-480-85</Size>
+      <Width>85</Width>
+      <Teeth>60</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-560-85" >
+      <Size>HTD-8M-560-85</Size>
+      <Width>85</Width>
+      <Teeth>70</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-600-85" >
+      <Size>HTD-8M-600-85</Size>
+      <Width>85</Width>
+      <Teeth>75</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-640-85" >
+      <Size>HTD-8M-640-85</Size>
+      <Width>85</Width>
+      <Teeth>80</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-720-85" >
+      <Size>HTD-8M-720-85</Size>
+      <Width>85</Width>
+      <Teeth>90</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-800-85" >
+      <Size>HTD-8M-800-85</Size>
+      <Width>85</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-880-50" >
+      <Size>HTD-8M-880-50</Size>
+      <Width>50</Width>
+      <Teeth>110</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-960-85" >
+      <Size>HTD-8M-960-85</Size>
+      <Width>85</Width>
+      <Teeth>120</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1040-85" >
+      <Size>HTD-8M-1040-85</Size>
+      <Width>85</Width>
+      <Teeth>130</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1120-85" >
+      <Size>HTD-8M-1120-85</Size>
+      <Width>85</Width>
+      <Teeth>140</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1200-85" >
+      <Size>HTD-8M-1200-85</Size>
+      <Width>85</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1280-85" >
+      <Size>HTD-8M-1280-85</Size>
+      <Width>85</Width>
+      <Teeth>160</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1440-85" >
+      <Size>HTD-8M-1440-85</Size>
+      <Width>85</Width>
+      <Teeth>180</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1600-85" >
+      <Size>HTD-8M-1600-85</Size>
+      <Width>85</Width>
+      <Teeth>200</Teeth>
+    </Member>
+	<Member moniker="HTD-8M-1640-85" >
+      <Size>HTD-8M-1640-85</Size>
+      <Width>85</Width>
+      <Teeth>205</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1760-85" >
+      <Size>HTD-8M-1760-85</Size>
+      <Width>85</Width>
+      <Teeth>220</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-1800-85" >
+      <Size>HTD-8M-1800-85</Size>
+      <Width>85</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2000-85" >
+      <Size>HTD-8M-2000-85</Size>
+      <Width>85</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2400-85" >
+      <Size>HTD-8M-2400-85</Size>
+      <Width>85</Width>
+      <Teeth>300</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2600-85" >
+      <Size>HTD-8M-2600-85</Size>
+      <Width>85</Width>
+      <Teeth>325</Teeth>
+    </Member>
+    <Member moniker="HTD-8M-2800-85" >
+	  <Size>HTD-8M-2800-85</Size>
+      <Width>85</Width>
+      <Teeth>350</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

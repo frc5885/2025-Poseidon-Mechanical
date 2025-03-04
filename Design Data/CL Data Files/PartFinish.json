@@ -1,0 +1,992 @@
+[
+  {
+    "Name": "ToBeSet",
+    "Color": "As Material",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "  Black Oxide",
+    "Color": "Blue Grey",
+    "IsPreferred": true,
+    "IsPaint": false,
+    "FilterSteel": true,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "  Black Oxide_",
+    "Color": "Blue Grey (Dark)",
+    "IsPreferred": true,
+    "IsPaint": false,
+    "FilterSteel": true,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "  Black Oxide___",
+    "Color": "Black Chrome",
+    "IsPreferred": true,
+    "IsPaint": false,
+    "FilterSteel": true,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "  None",
+    "Color": "As Material",
+    "IsPreferred": true,
+    "IsPaint": false,
+    "FilterSteel": true,
+    "FilterAluminum": true,
+    "FilterCopper": true,
+	"Selectable": true
+  },
+  {
+    "Name": " Duracoat",
+    "Color": "Sea Green",
+    "IsPreferred": true,
+    "IsPaint": false,
+    "FilterSteel": true,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": " Sunoloy 129+P (F-Coat)",
+    "Color": "Grey (Dark)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Chrome (0.02 mm Thick)",
+    "Color": "Chrome",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Chrome, Flash (0.0001-0.0002\")",
+    "Color": "Chrome",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - Balinit Futura Nano",
+    "Color": "Grape",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - Balinit Hard Carbon",
+    "Color": "Black Chrome",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - Ceramic (0.008\" Thick)",
+    "Color": "Beige (Dark)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - DLC",
+    "Color": "Grey (Dark)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - HSE",
+    "Color": "Brown (Flat)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - Nitride",
+    "Color": "Gunmetal",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - Tech-Kote",
+    "Color": "Gunmetal",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - TiC/TiN High Temp CVD Process",
+    "Color": "Gold Metallic",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - TiN",
+    "Color": "Gold Metallic",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - White Zinc (Zinc Electroplate with Clear Chromate)",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - Zinc",
+    "Color": "Chrome",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Coating - Zinc-dichromate",
+    "Color": "Beige (Light)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Orange (RAL-2000, Yellow Orange) - M02",
+    "Color": "Orange",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Orange (RAL-2004, Pure Orange) - M04",
+    "Color": "Orange (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Orange (RAL-2009, Traffic Orange) - M01 CL Std",
+    "Color": "Orange (Medium)",
+    "IsPreferred": true,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Orange (RAL-2011, Deep Orange) - M06",
+    "Color": "Orange",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Orange (F75 S/W, Orange)",
+    "Color": "Orange",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Orange (Glidden 4510, Orange) - M03",
+    "Color": "Orange (Pale)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Orange (SW4083, Safety Orange) - M05",
+    "Color": "Orange",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Yellow (RAL-1003, Signal Yellow) - Y01 CL Std",
+    "Color": "Yellow (Flat)",
+    "IsPreferred": true,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Yellow (RAL-1007, Daffodil Yellow) - Y05",
+    "Color": "Yellow (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Yellow (RAL-1018, Zinc Yellow) - Y03",
+    "Color": "Yellow",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Yellow (RAL-1021, Colza Yellow) - Y06",
+    "Color": "Yellow (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Yellow (RAL-1023, Traffic Yellow) - Y02",
+    "Color": "Yellow (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Yellow (Glidden 4540, Yellow) - Y04",
+    "Color": "Yellow (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Yellow (Munsell 5Y8/12) - Y07",
+    "Color": "Yellow",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anodize- Black",
+    "Color": "Black Vinyl (texture)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anodize- Blue",
+    "Color": "Blue (Sky)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anodize- Clear",
+    "Color": "Al2-O3 (Polished)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anodize- Red",
+    "Color": "Red (Flat)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anodize- Yellow",
+    "Color": "Yellow (Dark)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anodize- Mil-A-8625 Type 3 Class 1,Clear",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anodize- Mil-A-8625 Type 3 Class 2,Black",
+    "Color": "Black Vinyl (texture)",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-1001, Beige - P31",
+    "Color": "Beige (PC)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-1013, Oyster White - P04",
+    "Color": "Tan",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-1015, Light Ivory - P05",
+    "Color": "Popcorn",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-3001, Signal Red - CL Std",
+    "Color": "Red",
+    "IsPreferred": true,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-3020, Traffic Red",
+    "Color": "Red",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-5002, Ultramarine Blue -P06",
+    "Color": "Blue",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-5005, Signal Blue - CL Std - P07",
+    "Color": "Blue (Sky)",
+    "IsPreferred": true,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-5012, Light Blue - P30",
+    "Color": "Blue (Sky)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-5015, Sky Blue - P24",
+    "Color": "Blue",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-5017, Traffic Blue - P18",
+    "Color": "Blue (Flat)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-6011, Reseda Green - P45",
+    "Color": "Olive Green (Drab)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-6018, Yellow Green",
+    "Color": "Green",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7004, Signal Grey - P40",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7022, Umbra Grey - P08",
+    "Color": "Blue Grey (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7030, Stone Grey - P47",
+    "Color": "Grey White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7032, Grey - P09",
+    "Color": "Beige (PC)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7035, Light Grey - P10",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7040, Window Grey - P43",
+    "Color": "Grey White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7042, Traffic Grey",
+    "Color": "Grey (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7044, Silk Grey - P21",
+    "Color": "Tan",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7046, Telegrey 2 - P46",
+    "Color": "Grey White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-7047, Telegrey 4 - P41",
+    "Color": "Grey White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9001, Cream - P11",
+    "Color": "Popcorn",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9002, Grey White - P36",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9003, Signal White - P17",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9005, Jet Black - P32",
+    "Color": "Black",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9006, White Aluminum - P37",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9010, Pure White - P12",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9016, Traffic White - P13",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "RAL-9018, Papyrus White - P23",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW4036, Mill Ivory - P14",
+    "Color": "White (Flat)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW4081, Safety Red",
+    "Color": "Red",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW4085 B54-T-104 Safety Blue",
+    "Color": "Blue",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW4089, Pure White - P15",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW6115, Totally Tan - P29",
+    "Color": "Tan",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW6120, Believable Buff - P03",
+    "Color": "Tan",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW6126 F75WJ36, Beige - P33",
+    "Color": "Beige (PC)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW6260, Unique Grey - P16",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW7004, Snowbound - P44",
+    "Color": "Beige (PC)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW7076, Cyberspace - P42",
+    "Color": "Blue Grey (Dark)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "SW Barewel001 Taskawa Blue 601649411 - P27",
+    "Color": "Blue",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "4308 Devguard, Green - P19",
+    "Color": "Olive Green (Drab)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Anew Grey 4309-0110",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "FCS16022-1, Porcelain White - P02",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Glidden 4550, White - P25",
+    "Color": "White (Flat)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Glidden 4559, Std Grey",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Magna EX White",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Metalclad 218497 - P20",
+    "Color": "Blue (Flat)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Munsell 5Y 9/1 - P34",
+    "Color": "White",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Munsell 10GY9/1 - P38",
+    "Color": "Green Pastel",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "OMEX GREY – 515-12-401 – The Color Shoppe",
+    "Color": "Grey (Light)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Safety Blue,ICI Devoe,Code #DC9800 (Top Coat-Devgaurd 4338 Alkyd Indl Gloss Enam)",
+    "Color": "Blue",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Shape Orange (REPCO 101671/101754/101755)",
+    "Color": "Orange (Medium)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Z__CUSTOMER SPECIFIC",
+    "Color": "Blue (Sky)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Z__SAFETY ORANGE",
+    "Color": "Orange (Medium)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+  {
+    "Name": "Z__SAFETY YELLOW",
+    "Color": "Yellow (Flat)",
+    "IsPreferred": false,
+    "IsPaint": true,
+    "FilterSteel": false,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": true
+  },
+    {
+    "Name": "Black Oxide H.T.",
+    "Color": "Black Chrome",
+    "IsPreferred": false,
+    "IsPaint": false,
+    "FilterSteel": true,
+    "FilterAluminum": false,
+    "FilterCopper": false,
+	"Selectable": false
+  }
+]

@@ -1,0 +1,392 @@
+{
+  "1X1X1_8": {
+    "SizeCallout": "1\" X 1\" X 1/8\"",
+    "Sizes": {
+      "TubeSize1": 25.4,
+      "TubeSize2": 25.4,
+      "TubeWall": 3.17754,
+      "CornerRad": 3.9751
+    },
+    "Preferred": true
+  },
+  "1-1_2X1-1_2X1_8": {
+    "SizeCallout": "1-1/2\" X 1-1/2\" X 1/8\"",
+    "Sizes": {
+      "TubeSize1": 38.1,
+      "TubeSize2": 38.1,
+      "TubeWall": 3.17754,
+      "CornerRad": 3.9751
+    },
+    "Preferred": true
+  },
+  "2X2X3_16": {
+    "SizeCallout": "2\" X 2\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 50.8,
+      "TubeSize2": 50.8,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": true
+  },
+  "2X3X3_16": {
+    "SizeCallout": "2\" X 3\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 50.8,
+      "TubeSize2": 76.2,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": true
+  },
+  "2X4X1_4": {
+    "SizeCallout": "2\" X 4\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 50.8,
+      "TubeSize2": 101.6,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": true
+  },
+  "3X3X3_16": {
+    "SizeCallout": "3\" X 3\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 76.2,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": true
+  },
+  "3X6X1_4": {
+    "SizeCallout": "3\" X 6\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 152.4,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": true
+  },
+  "3X8X1_4": {
+    "SizeCallout": "3\" X 8\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 203.2,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": true
+  },
+  "4X4X1_4": {
+    "SizeCallout": "4\" X 4\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 101.6,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": true
+  },
+  "4X6X3_8": {
+    "SizeCallout": "4\" X 6\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 152.4,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": true
+  },
+  "4X8X3_8": {
+    "SizeCallout": "4\" X 8\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 203.2,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": true
+  },
+  "4X10X3_8": {
+    "SizeCallout": "4\" X 10\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 254,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": true
+  },
+  "6X6X3_8": {
+    "SizeCallout": "6\" X 6\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 152.4,
+      "TubeSize2": 152.4,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": true
+  },
+  "12X12X3_8": {
+    "SizeCallout": "12\" X 12\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 304.8,
+      "TubeSize2": 304.8,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": true
+  },
+  "1-1_2X1-1_2X3_16": {
+    "SizeCallout": "1-1/2\" X 1-1/2\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 38.1,
+      "TubeSize2": 38.1,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": false
+  },
+  "1-1_2X2-1_2X1_8": {
+    "SizeCallout": "1-1/2\" X 2-1/2\" X 1/8\"",
+    "Sizes": {
+      "TubeSize1": 38.1,
+      "TubeSize2": 63.5,
+      "TubeWall": 3.17754,
+      "CornerRad": 3.9751
+    },
+    "Preferred": false
+  },
+  "1-1_2X3X1_8": {
+    "SizeCallout": "1-1/2\" X 3\" X 1/8\"",
+    "Sizes": {
+      "TubeSize1": 38.1,
+      "TubeSize2": 76.2,
+      "TubeWall": 3.17754,
+      "CornerRad": 3.9751
+    },
+    "Preferred": false
+  },
+  "1-1_2X3X3_16": {
+    "SizeCallout": "1-1/2\" X 3\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 38.1,
+      "TubeSize2": 76.2,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": false
+  },
+  "2X2X1_8": {
+    "SizeCallout": "2\" X 2\" X 1/8\"",
+    "Sizes": {
+      "TubeSize1": 50.8,
+      "TubeSize2": 50.8,
+      "TubeWall": 3.17754,
+      "CornerRad": 3.9751
+    },
+    "Preferred": false
+  },
+  "2X2X1_4": {
+    "SizeCallout": "2\" X 2\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 50.8,
+      "TubeSize2": 50.8,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": false
+  },
+  "2X4X3_16": {
+    "SizeCallout": "2\" X 4\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 50.8,
+      "TubeSize2": 101.6,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": false
+  },
+  "3X3X1_4": {
+    "SizeCallout": "3\" X 3\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 76.2,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": false
+  },
+  "3X3X3_8": {
+    "SizeCallout": "3\" X 3\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 76.2,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": false
+  },
+  "3X5X1_4": {
+    "SizeCallout": "3\" X 5\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 127,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": false
+  },
+  "3X5X3_16": {
+    "SizeCallout": "3\" X 5\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 127,
+      "TubeWall": 4.7625,
+      "CornerRad": 7.9375
+    },
+    "Preferred": false
+  },
+    "3X8X1_8": {
+    "SizeCallout": "3\" X 8\" X 1/8\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 203.2,
+      "TubeWall": 3.1775,
+      "CornerRad": 5.55625
+    },
+    "Preferred": false
+  },
+  "3X8X3_16": {
+    "SizeCallout": "3\" X 8\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 76.2,
+      "TubeSize2": 203.2,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": false
+  },
+  "3-1_2X3-1_2X3_16": {
+    "SizeCallout": "3-1/2\" X 3-1/2\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 88.9,
+      "TubeSize2": 88.9,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": false
+  },
+  "4X4X3_16": {
+    "SizeCallout": "4\" X 4\" X 3/16\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 101.6,
+      "TubeWall": 4.7625,
+      "CornerRad": 5.55625
+    },
+    "Preferred": false
+  },
+  "4X4X1_2": {
+    "SizeCallout": "4\" X 4\" X 1/2\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 101.6,
+      "TubeWall": 12.7,
+      "CornerRad": 15
+    },
+    "Preferred": false
+  },
+  "4X4X3_8": {
+    "SizeCallout": "4\" X 4\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 101.6,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": false
+  },
+  "4X6X1_4": {
+    "SizeCallout": "4\" X 6\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 152.4,
+      "TubeWall": 6.35254,
+      "CornerRad": 7.9375
+    },
+    "Preferred": false
+  },
+  "4X6X1_2": {
+    "SizeCallout": "4\" X 6\" X 1/2\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 152.4,
+      "TubeWall": 12.7,
+      "CornerRad": 15
+    },
+    "Preferred": false
+  },
+  "4X8X1_4": {
+    "SizeCallout": "4\" X 8\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 101.6,
+      "TubeSize2": 203.2,
+      "TubeWall": 6.35254,
+      "CornerRad": 12.7
+    },
+    "Preferred": false
+  },
+  "6X6X1_2": {
+    "SizeCallout": "6\" X 6\" X 1/2\"",
+    "Sizes": {
+      "TubeSize1": 152.4,
+      "TubeSize2": 152.4,
+      "TubeWall": 12.7,
+      "CornerRad": 15
+    },
+    "Preferred": false
+  },
+  "6X8X3_8": {
+    "SizeCallout": "6\" X 8\" X 3/8\"",
+    "Sizes": {
+      "TubeSize1": 152.4,
+      "TubeSize2": 203.2,
+      "TubeWall": 9.52754,
+      "CornerRad": 12.7
+    },
+    "Preferred": false
+  },
+  "8X8X1_8": {
+    "SizeCallout": "8\" X 8\" X 1/8\"",
+    "Sizes": {
+      "TubeSize1": 203.2,
+      "TubeSize2": 203.2,
+      "TubeWall": 3.17754,
+      "CornerRad": 3.9751
+    },
+    "Preferred": false
+  },
+  "8X8X1_4": {
+    "SizeCallout": "8\" X 8\" X 1/4\"",
+    "Sizes": {
+      "TubeSize1": 203.2,
+      "TubeSize2": 203.2,
+      "TubeWall": 6.35254,
+      "CornerRad": 12.7
+    },
+    "Preferred": false
+  },
+  "10X10X1_2": {
+    "SizeCallout": "10\" X 10\" X 1/2\"",
+    "Sizes": {
+      "TubeSize1": 254,
+      "TubeSize2": 254,
+      "TubeWall": 12.7,
+      "CornerRad": 15
+    },
+    "Preferred": false
+  }
+}

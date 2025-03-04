@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Weld Gun Configuration</Name>
+  <Guid>16fb9283-8a2f-4a6d-af19-6f2a53858358</Guid>
+  <Items>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Opportunity Number</Name>
+      <Guid>25fd5670-41df-4c03-b656-7f5382634fbd</Guid>
+      <ToolTip>Enter the Opportunity Number</ToolTip>
+      <ParameterName>OpportunityNumber</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="NumericParameterControlSpec">
+      <Name>Tip Force (lbs)</Name>
+      <Guid>641f8288-5728-44ba-ba38-fa40ed76ad07</Guid>
+      <ToolTip />
+      <ParameterName>tipForce_lbf</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <TrackBarProperties>
+        <MinimumValue>1</MinimumValue>
+        <MaximumValue>10</MaximumValue>
+        <ValueIncrement>1</ValueIncrement>
+      </TrackBarProperties>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Rated Max Servo (kN)</Name>
+      <Guid>bcfef172-bcf6-485c-a6c3-88bd2d878c58</Guid>
+      <ToolTip />
+      <ParameterName>ratedMax_Servo_kN</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Rated Time Servo (ms)</Name>
+      <Guid>b1f4e118-8c52-4c77-90e4-ae71cbe878e5</Guid>
+      <ToolTip />
+      <ParameterName>ratedTime_Servo</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Rated Max Trans (kA)</Name>
+      <Guid>3fe68cc3-94f7-4f5e-99b5-05e7d880ef87</Guid>
+      <ToolTip />
+      <ParameterName>ratedMax_Trans_kA</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Rated Time Trans  (ms)</Name>
+      <Guid>d26cbd1a-2206-4894-a0d8-7b6baf167dd0</Guid>
+      <ToolTip />
+      <ParameterName>ratedTime_Trans</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Rated Weld Per Min</Name>
+      <Guid>92c9a4d8-2bd4-4171-a767-e45898c1b8ac</Guid>
+      <ToolTip />
+      <ParameterName>ratedWPM</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="NumericParameterControlSpec">
+      <Name>Tip Max Opening (mm)</Name>
+      <Guid>32034774-28f9-4352-9ed0-91a72bfa0c2f</Guid>
+      <ToolTip />
+      <ParameterName>tipMaxOpening</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <TrackBarProperties>
+        <MinimumValue>1</MinimumValue>
+        <MaximumValue>10</MaximumValue>
+        <ValueIncrement>1</ValueIncrement>
+      </TrackBarProperties>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 1</Name>
+      <Guid>83ef0a88-852a-4c23-a79d-df3c989e36e5</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="NumericParameterControlSpec">
+      <Name>TotalWaterFlow (gpm)</Name>
+      <Guid>18da2a8f-2b2a-467f-8456-e7415c28b70f</Guid>
+      <ToolTip />
+      <ParameterName>TotalWaterFlow_gpm</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <TrackBarProperties>
+        <MinimumValue>1</MinimumValue>
+        <MaximumValue>10</MaximumValue>
+        <ValueIncrement>1</ValueIncrement>
+      </TrackBarProperties>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Hose Colour In</Name>
+      <Guid>6e97e522-bc33-455d-8524-82c154347e7c</Guid>
+      <ToolTip />
+      <ParameterName>hoseColour_IN</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Hose Colour Out</Name>
+      <Guid>ba6f5d3e-756e-453c-8bad-537366873118</Guid>
+      <ToolTip />
+      <ParameterName>hoseColour_OUT</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="SplitterSpec">
+      <Name>Splitter 2</Name>
+      <Guid>d650e709-3204-46c9-b980-51501717f21a</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="NumericParameterControlSpec">
+      <Name>Stationary Cap Displacement (mm)</Name>
+      <Guid>97b352c3-2704-4614-bed0-e6e2d3924d43</Guid>
+      <ToolTip>Enter Stationary Cap Displacement in mm</ToolTip>
+      <ParameterName>staCapDisp_mm</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <TrackBarProperties>
+        <MinimumValue>1</MinimumValue>
+        <MaximumValue>10</MaximumValue>
+        <ValueIncrement>1</ValueIncrement>
+      </TrackBarProperties>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="NumericParameterControlSpec">
+      <Name>Stationary Cap Skid (mm)</Name>
+      <Guid>29c6c749-d1e1-40a3-aec8-1cc3c7342001</Guid>
+      <ToolTip>Enter Stationary Cap Skid in mm</ToolTip>
+      <ParameterName>staCapSkid_mm</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <TrackBarProperties>
+        <MinimumValue>1</MinimumValue>
+        <MaximumValue>10</MaximumValue>
+        <ValueIncrement>1</ValueIncrement>
+      </TrackBarProperties>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Robot Bracket Location</Name>
+      <Guid>5fa0ed2b-2783-4601-a12d-f50fdca9d1b7</Guid>
+      <ToolTip>Enter Robot Bracket Location (LH,RH,Top,Bottom,Rear,LH/RH,Top/Bottom,Special,None)</ToolTip>
+      <ParameterName>RobotBracketLocation</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Customer Station Details (if applicable)</Name>
+      <Guid>d7ffdb66-fcff-4c7f-929b-c786cc632332</Guid>
+      <ToolTip />
+      <ParameterName>customerStationDetails</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Designed Max Cap Wear (if applicable)</Name>
+      <Guid>10d09058-09c2-4d47-87de-396fc84f62c3</Guid>
+      <ToolTip />
+      <ParameterName>DesignMaxCapWear</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextParameterControlSpec">
+      <Name>Comments (if applicable)</Name>
+      <Guid>b31f0264-8ce6-45a3-906e-24640cbd9531</Guid>
+      <ToolTip>Include any comments pertaining to the gun for non-standard applications</ToolTip>
+      <ParameterName>GunComment</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <MinimumLinesToShow>2</MinimumLinesToShow>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>Read Only Values (Calculated Values)</Name>
+      <Guid>2eecfd07-8f17-4084-a54c-dd80f7e4693f</Guid>
+      <Items>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Actuator Manufacturer</Name>
+          <Guid>cd16c72f-fb0d-4328-8b13-64f8ce82e4cc</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>actuatorManufacturer</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>gun Ratio</Name>
+          <Guid>09e67c5f-46de-41b6-9b2e-cc5b99035b8d</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>gunRatio</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Tip Force (kN)</Name>
+          <Guid>55d7643c-349f-46f5-b8e4-fd434e31bb95</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>tipForce_kN</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Actuator Part #</Name>
+          <Guid>428f5b51-cbd6-445f-b9b6-20b9499a5190</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>actuatorPN</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Transformer Manufacturer</Name>
+          <Guid>820f9bec-ffd4-4464-bc03-041c1af43f22</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>transformerManufacturer</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Transformer #</Name>
+          <Guid>e24083b5-17d4-4d49-95b3-9201907d7ed1</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>transformerCode</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Transformer KVA</Name>
+          <Guid>c9b400a3-e94e-4f01-b268-92910ec071cd</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>transformerKVA</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Gun Water Flow (lpm)</Name>
+          <Guid>6aacbb0b-aa82-49ad-94b2-6888bddd4d09</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <AlwaysReadOnly>true</AlwaysReadOnly>
+          <ParameterName>TotalWaterFlow_lpm</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Transformer Voltage (Volts)</Name>
+          <Guid>9e4b9d36-4c64-4da3-8357-91ddfc9f6b7c</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>transformerVoltage</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Gun Speed Tip Ratio (mm/ Rev)</Name>
+          <Guid>bf290a88-e6cc-45bf-a6f0-ba7683fdb1ab</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>tipRatio</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Tip Max Speed</Name>
+          <Guid>0d4f382e-bc77-401b-89bf-b13f09f40c7f</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>tipMaxSpeed</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Gun Mass (Kg)</Name>
+          <Guid>caacfc9c-8098-4390-9f0a-4ae9b7454e11</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>CN_MASS_kg</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Manifold Port Designation</Name>
+          <Guid>c0ed5780-1e11-4f8e-b3da-dd9fec40297e</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>manifoldPort_OutDesignation</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Manifold What Circuit</Name>
+          <Guid>2b0879ca-b95e-4cf9-bb52-cfc40591100e</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>manifoldWhatCircuit</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Manifold Port - In</Name>
+          <Guid>e68f7b28-be3a-420e-b822-73bd3350f7d9</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>manifoldNumberOfPorts_In</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="NumericParameterControlSpec">
+          <Name>Manifold Port - Out</Name>
+          <Guid>0d3b4b3d-a845-4291-98dc-07a7cbb9041d</Guid>
+          <ToolTip />
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>manifoldNumberOfPorts_Out</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <TrackBarProperties>
+            <MinimumValue>1</MinimumValue>
+            <MaximumValue>10</MaximumValue>
+            <ValueIncrement>1</ValueIncrement>
+          </TrackBarProperties>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Max Rated Cap Force (lbf)</Name>
+          <Guid>fd0b9be8-7d48-4a09-b0de-18e7fa7152a0</Guid>
+          <ToolTip>Enter Max Cap Force in lbf</ToolTip>
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>maxRatedCapForce_lbf</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextParameterControlSpec">
+          <Name>Max Rated Cap Force (kN)</Name>
+          <Guid>107048df-adb4-43e8-b804-b06e79038dab</Guid>
+          <ToolTip>Max Cap Force in kN.</ToolTip>
+          <ReadOnly>true</ReadOnly>
+          <ParameterName>maxRatedCapForce_kN</ParameterName>
+          <EditControlType>TextBox</EditControlType>
+          <MinimumLinesToShow>2</MinimumLinesToShow>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="NumericParameterControlSpec">
+      <Name>Transforme rSecondary (Override)</Name>
+      <Guid>4be846a2-f0ab-42f0-9502-5105b39fac69</Guid>
+      <ToolTip />
+      <ParameterName>transformerSecondary_override</ParameterName>
+      <EditControlType>TextBox</EditControlType>
+      <TrackBarProperties>
+        <MinimumValue>1</MinimumValue>
+        <MaximumValue>10</MaximumValue>
+        <ValueIncrement>1</ValueIncrement>
+      </TrackBarProperties>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Update Mass Properties</Name>
+      <Guid>7dfb709a-2bb0-47ee-b88b-49a45c0a9fdb</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>partUpdateMass</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\clfs\Engineering\CL655_Engineering\655 Engineering\WELDGUN ILOGIC\partUpdateMass.txt</Path>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Export Proposal Step And PDF</Name>
+      <Guid>58e1a4ab-d571-4666-a070-0238859e4db5</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>ExportStepAndPDF</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\clfs\Engineering\CL655_Engineering\655 Engineering\WELDGUN ILOGIC\ExportStepAndPDF.txt</Path>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Update Inertia Properties at Brackets</Name>
+      <Guid>30c5e035-f88e-412c-82c5-f0bb64dc42c0</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>BracketUpdateMass</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\clfs\engineering\CL655_Engineering\655 Engineering\WELDGUN ILOGIC\BMU_20240730.txt</Path>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>false</Modal>
+</FormSpecification>

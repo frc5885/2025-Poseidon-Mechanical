@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Designer Tools</Name>
+  <Guid>1b2b894f-bd15-4290-8cd8-81e31200fb63</Guid>
+  <Items>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>Part Functions</Name>
+      <Guid>6278dfad-e644-486b-bd4a-bd49906ae481</Guid>
+      <Font>
+        <FamilyName>Tahoma</FamilyName>
+        <Size>8.25</Size>
+        <Bold>true</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <ContentsFont>
+        <FamilyName>Tahoma</FamilyName>
+        <Size>8.25</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </ContentsFont>
+      <Items>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Standard Hole Patterns</Name>
+          <Guid>12399a73-4f8b-476c-ac8d-21576691e916</Guid>
+          <ToolTip>Inserts standard NAAMs holes into an active sketch</ToolTip>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>StandardHolePatterns</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\StandardHolePatterns.iLogicVb</Path>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>Assembly Functions</Name>
+      <Guid>5f454150-d41a-4120-a235-07ca6c8c723f</Guid>
+      <Font>
+        <FamilyName>Tahoma</FamilyName>
+        <Size>8.25</Size>
+        <Bold>true</Bold>
+        <Italic>false</Italic>
+      </Font>
+      <ContentsFont>
+        <FamilyName>Tahoma</FamilyName>
+        <Size>8.25</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </ContentsFont>
+      <Items>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Copy Part Properties (Mirror)</Name>
+          <Guid>599fe9cf-9e29-4282-ba3f-59bfaf9015b1</Guid>
+          <ToolTip>Used during mirroring to copy all original part properties to new parts</ToolTip>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>CopyPropertiesToMirrors</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\CopyPropertiesToMirrors.iLogicVb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Copy Sub-Assy Positional Reps</Name>
+          <Guid>27290fc9-7be0-481b-a9db-7dc8bc25f2b3</Guid>
+          <ToolTip>Rule copies the positional reps of the selected sub-assy to the active assy</ToolTip>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>AddPosRep</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\AddPosRep.vb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Insert Fastener Space Claim</Name>
+          <Guid>b33f3ead-e94c-4974-93b5-7782818aaa25</Guid>
+          <ToolTip>Inserts Fastener Heads by User-Selected Hole Edge</ToolTip>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>InsertFastenerSpaceClaim</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\InsertFastenerSpaceClaim.iLogicVb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Sort Assembly</Name>
+          <Guid>c9e2d084-0488-4717-98e0-67e7dcc7331e</Guid>
+          <ToolTip>Sorts components into folders</ToolTip>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>ComponentSort</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\ComponentSort.iLogicVb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Mate Origins</Name>
+          <Guid>8b1acbee-14a3-4fbd-a75e-f85afaf45e9b</Guid>
+          <ToolTip>Mate two component Origins</ToolTip>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>OriginMating</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\OriginMating.iLogicVb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>BOM Visibility Check</Name>
+          <Guid>4ae7df0f-d23f-4dd9-b483-b5a5cd2ba565</Guid>
+          <Font>
+            <FamilyName>Tahoma</FamilyName>
+            <Size>8.25</Size>
+            <Bold>false</Bold>
+            <Italic>false</Italic>
+          </Font>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>VisibilityVerification</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\VisibilityVerification.iLogicVb</Path>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>TESTING</Name>
+      <Guid>1ef6fb8f-f2e0-4421-a312-0847ff8d8d30</Guid>
+      <Items>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>CLMirrorSub (TESTING ONLY, DO NOT USE)</Name>
+          <Guid>b1fd1052-ba7e-4083-9e2c-2611b022f048</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>CLMirrorSub</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>O:\Brady Deslippe\CLMirrorSub.iLogicVb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Replace REPLACE WITH Fasteners</Name>
+          <Guid>5acf36f6-0792-4e10-bd46-21df461242de</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>Replace_With_Processing</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\CADSHARE\CAD Configuration\i-Logic\Rules\FormRules\Replace_With_Processing.txt</Path>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>false</Modal>
+</FormSpecification>

@@ -1,0 +1,65 @@
+[
+    {
+        "AboveDia": 0,
+        "IncludingDia": 3,
+        "Fits": [
+            {"Fit":"H6", "UpperTolerance": 0.006, "LowerTolerance": 0.000},
+            {"Fit":"F7",  "UpperTolerance": 0.016, "LowerTolerance": 0.006},
+            { "Fit":"H7", "UpperTolerance": 0.01, "LowerTolerance": 0.000}
+        ]
+    },
+    {
+        "AboveDia": 3,
+        "IncludingDia": 6,
+        "Fits": [
+            {"Fit":"H6", "UpperTolerance": 0.008, "LowerTolerance": 0.000},
+            {"Fit":"F7", "UpperTolerance": 0.022, "LowerTolerance": 0.010},
+            {"Fit":"H7", "UpperTolerance": 0.012, "LowerTolerance": 0.000}
+        ]
+    },
+    {
+        "AboveDia": 6,
+        "IncludingDia": 10,
+        "Fits": [
+            {"Fit":"H6", "UpperTolerance": 0.009, "LowerTolerance": 0.000},
+            {"Fit":"F7", "UpperTolerance": 0.028, "LowerTolerance": 0.013},
+            {"Fit":"H7", "UpperTolerance": 0.015, "LowerTolerance": 0.000}
+        ]
+    },
+    {
+        "AboveDia": 10,
+        "IncludingDia": 18,
+        "Fits": [
+            {"Fit":"H6", "UpperTolerance": 0.011, "LowerTolerance": 0.000},
+            {"Fit":"F7", "UpperTolerance": 0.034, "LowerTolerance": 0.016},
+            {"Fit":"H7", "UpperTolerance": 0.018, "LowerTolerance": 0.000}
+        ]
+    },
+    {
+        "AboveDia": 18,
+        "IncludingDia": 30,
+        "Fits": [
+            {"Fit":"H6", "UpperTolerance": 0.013, "LowerTolerance": 0.000},
+            {"Fit":"F7", "UpperTolerance": 0.041, "LowerTolerance": 0.020},
+            {"Fit":"H7", "UpperTolerance": 0.021, "LowerTolerance": 0.000}
+        ]
+    },
+    {
+        "AboveDia": 30,
+        "IncludingDia": 50,
+        "Fits": [
+            {"Fit":"H6", "UpperTolerance": 0.016, "LowerTolerance": 0.000},
+            {"Fit":"F7", "UpperTolerance": 0.050, "LowerTolerance": 0.025},
+            {"Fit":"H7", "UpperTolerance": 0.025, "LowerTolerance": 0.000}
+        ]
+    },
+    {
+        "AboveDia": 50,
+        "IncludingDia": 65,
+        "Fits": [
+            {"Fit":"H6","UpperTolerance": 0.019, "LowerTolerance": 0.000},
+            {"Fit":"F7", "UpperTolerance": 0.060, "LowerTolerance": 0.030},
+            {"Fit":"H7", "UpperTolerance": 0.030, "LowerTolerance": 0.000}
+]
+    },
+]

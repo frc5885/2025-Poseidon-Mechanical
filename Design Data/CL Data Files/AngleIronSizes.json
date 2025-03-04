@@ -1,0 +1,172 @@
+{
+  "1X1X1_8": {
+    "SizeCallout": "1\" X 1\" X 1/8",
+    "Sizes": {
+      "LegSize1": 25.4,
+      "LegSize2": 25.4,
+      "AIWall": 3.177,
+      "MidRad": 3.175
+    },
+    "Preferred": true
+  },
+  "1-1_2X1-1_2X3_16": {
+    "SizeCallout": "1-1/2\" X 1-1/2\" X 3/16",
+    "Sizes": {
+      "LegSize1": 38.1,
+      "LegSize2": 38.1,
+      "AIWall": 4.7625,
+      "MidRad": 4.7625
+    },
+    "Preferred": true
+  },
+  "2X2X3_16": {
+    "SizeCallout": "2\" X 2\" X 3/16",
+    "Sizes": {
+      "LegSize1": 50.8,
+      "LegSize2": 50.8,
+      "AIWall": 4.7625,
+      "MidRad": 4.7625
+    },
+    "Preferred": true
+  },
+  "2X3X1_4": {
+    "SizeCallout": "2\" X 3\" X 1/4",
+    "Sizes": {
+      "LegSize1": 50.8,
+      "LegSize2": 76.2,
+      "AIWall": 6.35,
+      "MidRad": 4.7625
+    },
+    "Preferred": true
+  },
+  "3X3X3_16": {
+    "SizeCallout": "3\" X 3\" X 3/16",
+    "Sizes": {
+      "LegSize1": 76.2,
+      "LegSize2": 76.2,
+      "AIWall": 4.7625,
+      "MidRad": 3.175
+    },
+    "Preferred": true
+  },
+  "3X3X1_4": {
+    "SizeCallout": "3\" X 3\" X 1/4",
+    "Sizes": {
+      "LegSize1": 76.2,
+      "LegSize2": 76.2,
+      "AIWall": 6.35,
+      "MidRad": 7.9375
+    },
+    "Preferred": false
+  },
+  "3X3X3_8": {
+    "SizeCallout": "3\" X 3\" X 3/8",
+    "Sizes": {
+      "LegSize1": 76.2,
+      "LegSize2": 76.2,
+      "AIWall": 9.525,
+      "MidRad": 7.9375
+    },
+    "Preferred": true
+  },
+  "3X4X1_2": {
+    "SizeCallout": "3\" X 4\" X 1/2",
+    "Sizes": {
+      "LegSize1": 76.2,
+      "LegSize2": 101.6,
+      "AIWall": 12.7,
+      "MidRad": 9.525
+    },
+    "Preferred": true
+  },
+  "3X5X3_8": {
+    "SizeCallout": "3\" X 5\" X 3/8",
+    "Sizes": {
+      "LegSize1": 76.2,
+      "LegSize2": 127,
+      "AIWall": 9.525,
+      "MidRad": 7.9375
+    },
+    "Preferred": true
+  },
+  "4X4X1_2": {
+    "SizeCallout": "4\" X 4\" X 1/2",
+    "Sizes": {
+      "LegSize1": 101.6,
+      "LegSize2": 101.6,
+      "AIWall": 12.7,
+      "MidRad": 9.525
+    },
+    "Preferred": true
+  },
+  "6X6X1": {
+    "SizeCallout": "6\" X 6\" X 1",
+    "Sizes": {
+      "LegSize1": 152.4,
+      "LegSize2": 152.4,
+      "AIWall": 25.4,
+      "MidRad": 12.7
+    },
+    "Preferred": true
+  },
+  "6X8X1": {
+    "SizeCallout": "6\" X 8\" X 1",
+    "Sizes": {
+      "LegSize1": 152.4,
+      "LegSize2": 203.2,
+      "AIWall": 25.4,
+      "MidRad": 12.7
+    },
+    "Preferred": true
+  },
+  "1X1X3_16": {
+    "SizeCallout": "1\" X 1\" X 3/16",
+    "Sizes": {
+      "LegSize1": 25.4,
+      "LegSize2": 25.4,
+      "AIWall": 4.7625,
+      "MidRad": 3.175
+    },
+    "Preferred": false
+  },
+  "1-1_2X1-1_2X1_8": {
+    "SizeCallout": "1-1/2\" X 1-1/2\" X 1/8",
+    "Sizes": {
+      "LegSize1": 38.1,
+      "LegSize2": 38.1,
+      "AIWall": 3.177,
+      "MidRad": 3.175
+    },
+    "Preferred": false
+  },
+  "2X2X1_4": {
+    "SizeCallout": "2\" X 2\" X 1/4",
+    "Sizes": {
+      "LegSize1": 50.8,
+      "LegSize2": 50.8,
+      "AIWall": 6.35,
+      "MidRad": 4.7625
+    },
+    "Preferred": false
+  },
+  "3X4X3_8": {
+    "SizeCallout": "3\" X 4\" X 3/8",
+    "Sizes": {
+      "LegSize1": 76.2,
+      "LegSize2": 101.6,
+      "AIWall": 9.525,
+      "MidRad": 7.9375
+    },
+    "Preferred": false
+  },
+  "3X5X1_2": {
+    "SizeCallout": "3\" X 5\" X 1/2",
+    "Sizes": {
+      "LegSize1": 76.2,
+      "LegSize2": 127,
+      "AIWall": 12.7,
+      "MidRad": 9.525
+    },
+    "Preferred": false
+  }
+}

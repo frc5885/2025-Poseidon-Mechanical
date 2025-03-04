@@ -1,0 +1,237 @@
+<DIV>
+<H5><IMG id=Table_Title src="minus.gif">&nbsp;$$Calculation_Properties$</H5>
+<DIV id="Info_Table">
+<TABLE class=ta>
+<TBODY>
+  <TR> 
+    <TD align=middle>$$Include$</TD>
+    <TD></TD>
+    <TD></TD>
+    <TD></TD>
+  </TR>
+  <TR>
+    <TD align=middle>$$UseDensity$</TD>
+    <TD>$$description_Ro$</TD>
+    <TD align=middle>$$designation_Ro$</TD>
+    <TD align=middle>$$value_Ro$</TD>
+  </TR>
+  <TR>
+    <TD align=middle>$$UseBeta$</TD>
+    <TD>$$description_Beta$</TD>
+    <TD align=middle>$$designation_Beta$</TD>
+    <TD align=middle>$$value_Beta$</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD>$$description_Div$</TD>
+    <TD></TD>
+    <TD align=middle>$$value_Div$</TD>
+  </TR>
+  <TR>
+    <TD></TD>
+    <TD>$$ModeOfStress$</TD>
+    <TD></TD>
+    <TD align=middle>$$value_ModeOfStress$</TD>
+  </TR>
+</TBODY>
+</TABLE>
+<TD width=50></TD>
+</DIV>
+</DIV>
+
+<DIV>
+<H5><IMG id=Table_Title src="minus.gif">&nbsp;$$Loads$</H5>
+<DIV id="Info_Table">
+<TABLE class=ta>
+<TBODY>
+  <TR>
+    <TD align=middle rowspan=2>$$Index$</TD>
+    <TD align=middle rowspan=2>$$Location$</TD>
+    <TD align=middle colspan=4>$$RadialForce$</TD>
+    <TD align=middle colspan=4>$$BendingMoment$</TD>
+    <TD align=middle colspan=5>$$ContinuousLoad$</TD>
+    <TD align=middle rowspan=2>$$AxialForce$</TD>
+    <TD align=middle rowspan=2>$$Torque$</TD>
+    <TD align=middle colspan=4>$$Deflection$</TD>
+    <TD align=middle rowspan=2>$$Rotation$</TD>
+  </TR>
+  <TR>
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+    <TD align=middle>$$Length$</TD>
+
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+  </TR>
+
+  $$load_table$
+
+</TBODY>
+</TABLE>
+</DIV>
+</DIV>
+
+<DIV>
+<H5><IMG id=Table_Title src="minus.gif">&nbsp;$$Supports$</H5>
+<DIV id="Info_Table">
+<TABLE class=ta>
+<TBODY>
+  <TR>
+
+<!--iif(SHAFT)
+    <TD align=middle rowspan=2>$$Index$</TD>
+    <TD align=middle rowspan=2>$$Type$</TD>
+    <TD align=middle rowspan=2>$$Location$</TD>
+    <TD align=middle colspan=5>$$ReactionForce$</TD>
+    <TD align=middle rowspan=2>$$Yielding$</TD>
+    <TD align=middle rowspan=2>$$Type$</TD>
+    <TD align=middle colspan=4>$$Deflection$</TD>
+    <TD align=middle rowspan=2>$$Rotation$</TD>
+  </TR>
+  <TR>
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+    <TD align=middle>$$AxialForce$</TD>
+
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+  </TR>
+iif-->
+
+<!--iif(BEAM)
+    <TD align=middle rowspan=2>$$Index$</TD>
+    <TD align=middle rowspan=2>$$Type$</TD>
+    <TD align=middle rowspan=2>$$Location$</TD>
+    <TD align=middle colspan=5>$$ReactionForce$</TD>
+    <TD align=middle colspan=2>$$Yielding$</TD>
+    <TD align=middle colspan=2>$$RadialDisplacement$</TD>
+    <TD align=middle colspan=4>$$Deflection$</TD>
+    <TD align=middle rowspan=2>$$Rotation$</TD>
+  </TR>
+  <TR>
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+    <TD align=middle>$$AxialForce$</TD>
+
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+
+    <TD align=middle>$$XY$</TD>
+    <TD align=middle>$$XZ$</TD>
+    <TD align=middle>$$Size$</TD>
+    <TD align=middle>$$Angle$</TD>
+  </TR>
+iif-->
+
+  $$support_table$
+
+</TBODY>
+</TABLE>
+</DIV>
+</DIV>
+
+<DIV>
+<H5><IMG id=Table_Title src="minus.gif">&nbsp;$$Results$</H5>
+<DIV id="Info_Table">
+<TABLE class=ta>
+<TBODY>
+  <TR>
+    <TD>$$description_ShLen$</TD>
+    <TD align=middle>$$designation_ShLen$</TD>
+    <TD align=middle>$$value_ShLen$</TD>
+  </TR>
+  <TR>
+    <TD>$$description_Mass$</TD>
+    <TD align=middle>$$designation_Mass$</TD>
+    <TD align=middle>$$value_Mass$</TD>
+  </TR>
+  <TR>
+    <TD>$$description_SigmaMax$</TD>
+    <TD align=middle>$$designation_SigmaMax$</TD>
+    <TD align=middle>$$value_SigmaMax$</TD>
+  </TR>
+  <TR>
+    <TD>$$description_ShearMax$</TD>
+    <TD align=middle>$$designation_ShearMax$</TD>
+    <TD align=middle>$$value_ShearMax$</TD>
+  </TR>
+  <TR>
+    <TD>$$description_TorsionMax$</TD>
+    <TD align=middle>$$designation_TorsionMax$</TD>
+    <TD align=middle>$$value_TorsionMax$</TD>
+  </TR>
+  <TR>
+    <TD>$$description_TensionMax$</TD>
+    <TD align=middle>$$designation_TensionMax$</TD>
+    <TD align=middle>$$value_TensionMax$</TD>
+  </TR>
+  <TR>
+    <TD>$$description_ReducedStressMax$</TD>
+    <TD align=middle>$$designation_ReducedStressMax$</TD>
+    <TD align=middle>$$value_ReducedStressMax$</TD>
+  </TR>
+  <TR>
+    <TD>$$description_MaxDefl$</TD>
+    <TD align=middle>$$designation_MaxDefl$</TD>
+    <TD align=middle>$$value_MaxDefl$</TD>
+  </TR>
+    <TD>$$description_Atw$</TD>
+    <TD align=middle>$$designation_Atw$</TD>
+    <TD align=middle>$$value_Atw$</TD>
+  </TR>
+</TBODY>
+</TABLE>
+</DIV>
+</DIV>
+
+<DIV>
+<H5><IMG id=Table_Title src="minus.gif">&nbsp;$$Preview$</H5>
+<DIV ID="Info_Table"><IMG src="ShaftPreview.png">
+</DIV>
+</DIV>
+
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName3$</H5> <DIV ID="Info_Table"> <IMG  src="Graph3.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName1$</H5> <DIV ID="Info_Table"> <IMG  src="Graph1.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName2$</H5> <DIV ID="Info_Table"> <IMG  src="Graph2.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName7$</H5> <DIV ID="Info_Table"> <IMG  src="Graph7.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName5$</H5> <DIV ID="Info_Table"> <IMG  src="Graph5.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName6$</H5> <DIV ID="Info_Table"> <IMG  src="Graph6.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName11$</H5><DIV ID="Info_Table"> <IMG src="Graph11.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName9$</H5> <DIV ID="Info_Table"> <IMG  src="Graph9.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName10$</H5><DIV ID="Info_Table"> <IMG src="Graph10.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName15$</H5><DIV ID="Info_Table"> <IMG src="Graph15.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName13$</H5><DIV ID="Info_Table"> <IMG src="Graph13.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName14$</H5><DIV ID="Info_Table"> <IMG src="Graph14.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName19$</H5><DIV ID="Info_Table"> <IMG src="Graph19.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName17$</H5><DIV ID="Info_Table"> <IMG src="Graph17.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName18$</H5><DIV ID="Info_Table"> <IMG src="Graph18.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName23$</H5><DIV ID="Info_Table"> <IMG src="Graph23.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName21$</H5><DIV ID="Info_Table"> <IMG src="Graph21.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName22$</H5><DIV ID="Info_Table"> <IMG src="Graph22.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName24$</H5><DIV ID="Info_Table"> <IMG src="Graph24.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName25$</H5><DIV ID="Info_Table"> <IMG src="Graph25.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName26$</H5><DIV ID="Info_Table"> <IMG src="Graph26.png"></DIV></DIV>
+<DIV><H5><IMG id=Table_Title src="minus.gif">&nbsp;$$GraphName27$</H5><DIV ID="Info_Table"> <IMG src="Graph27.png"></DIV></DIV>

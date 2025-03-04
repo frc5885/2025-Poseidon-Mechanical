@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>iLogicBrowserUiFormSpecification</Name>
+  <Guid>af5bd67a-a10f-4682-ba3b-2d3177311326</Guid>
+  <Items>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>iProperties</Name>
+      <Guid>a9ab31de-c5df-4bb9-a668-f88359b815dc</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Save Document</Name>
+      <Guid>9d641dd9-a0fc-4d0b-a787-e7045fd202cf</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Librarian Tools</Name>
+      <Guid>d70ca875-97f3-4a6c-b5a3-14427df87f2c</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Rules</Name>
+      <Guid>c6139081-1952-47df-a5b8-6d6a2614459b</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Designer Tools</Name>
+      <Guid>d70ca875-97f3-4a6c-b5a3-14427df87f2c</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="FormButtonControlSpec">
+      <Name>Weld Gun Configuration</Name>
+      <Guid>ac85f0dd-13fa-4523-a81d-86244c2efdbb</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>false</AllowCustomization>
+  <PredefinedButtons>None</PredefinedButtons>
+  <Modal>false</Modal>
+  <IsLauncherPage>true</IsLauncherPage>
+</FormSpecification>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTS" thumbnail="HTD-14M.jpg" measuresystem="metric" name="%1%" desc="%2%" profile="single">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul"/>
+    <Pitch src="fixed" dt="number" units="mm">14</Pitch>
+    <S src="fixed" dt="number" units="mm">9.5</S>
+    <ht src="fixed" dt="number" units="mm">6</ht>
+    <PitchOfst src="fixed" dt="number" units="mm">2</PitchOfst>
+    <beta src="fixed" dt="number" units="deg">1.0</beta>
+    <Height src="fixed" dt="number" units="mm" >10</Height>
+    <ra src="fixed" dt="number" units="mm" >4.5</ra>
+    <rr src="fixed" dt="number" units="mm" >1.25</rr>
+    <Width0 src="fixed" dt="number" units="mm">55.0</Width0>
+    <Width src="table" dt="number" units="mm" />
+    <Teeth src="table" dt="number" units="ul" />
+    <MaxFlexFq src="fixed" dt="number" units="Hz">50.0</MaxFlexFq>
+    <MaxSpeed src="fixed" dt="number" units="m/s">60.0</MaxSpeed>
+    <Weight src="fixed" dt="number" units="kg/m">0.62</Weight>
+    <Dpkmin src="fixed" dt="number" units="mm">124.0</Dpkmin>
+    <MaxTension src="fixed" dt="number" units="N">12326.0</MaxTension>
+  </Parameters>
+  <Members>
+    <Member moniker="HTD-14M-966-40" >
+      <Size>HTD-14M-966-40</Size>
+      <Width>40</Width>
+      <Teeth>69</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1190-40" >
+      <Size>HTD-14M-1190-40</Size>
+      <Width>40</Width>
+      <Teeth>85</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1400-40" >
+      <Size>HTD-14M-1400-40</Size>
+      <Width>40</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1610-40" >
+      <Size>HTD-14M-1610-40</Size>
+      <Width>40</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1778-40" >
+      <Size>HTD-14M-1778-40</Size>
+      <Width>40</Width>
+      <Teeth>127</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1890-40" >
+      <Size>HTD-14M-1890-40</Size>
+      <Width>40</Width>
+      <Teeth>135</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2100-40" >
+      <Size>HTD-14M-2100-40</Size>
+      <Width>40</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2450-40" >
+      <Size>HTD-14M-2450-40</Size>
+      <Width>40</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2590-40" >
+      <Size>HTD-14M-2590-40</Size>
+      <Width>40</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2800-40" >
+      <Size>HTD-14M-2800-40</Size>
+      <Width>40</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3150-40" >
+      <Size>HTD-14M-3150-40</Size>
+      <Width>40</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3500-40" >
+      <Size>HTD-14M-3500-40</Size>
+      <Width>40</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3850-40" >
+      <Size>HTD-14M-3850-40</Size>
+      <Width>40</Width>
+      <Teeth>275</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4326-40" >
+      <Size>HTD-14M-4326-40</Size>
+      <Width>40</Width>
+      <Teeth>309</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4578-40" >
+      <Size>HTD-14M-4578-40</Size>
+      <Width>40</Width>
+      <Teeth>327</Teeth>
+    </Member>
+	
+	 <Member moniker="HTD-14M-966-55" >
+      <Size>HTD-14M-966-55</Size>
+      <Width>55</Width>
+      <Teeth>69</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1190-55" >
+      <Size>HTD-14M-1190-55</Size>
+      <Width>55</Width>
+      <Teeth>85</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1400-55" >
+      <Size>HTD-14M-1400-55</Size>
+      <Width>55</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1610-55" >
+      <Size>HTD-14M-1610-55</Size>
+      <Width>55</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1778-55" >
+      <Size>HTD-14M-1778-55</Size>
+      <Width>55</Width>
+      <Teeth>127</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1890-55" >
+      <Size>HTD-14M-1890-55</Size>
+      <Width>55</Width>
+      <Teeth>135</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2100-55" >
+      <Size>HTD-14M-2100-55</Size>
+      <Width>55</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2450-55" >
+      <Size>HTD-14M-2450-55</Size>
+      <Width>55</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2590-55" >
+      <Size>HTD-14M-2590-55</Size>
+      <Width>55</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2800-55" >
+      <Size>HTD-14M-2800-55</Size>
+      <Width>55</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3150-55" >
+      <Size>HTD-14M-3150-55</Size>
+      <Width>55</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3500-55" >
+      <Size>HTD-14M-3500-55</Size>
+      <Width>55</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3850-55" >
+      <Size>HTD-14M-3850-55</Size>
+      <Width>55</Width>
+      <Teeth>275</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4326-55" >
+      <Size>HTD-14M-4326-55</Size>
+      <Width>55</Width>
+      <Teeth>309</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4578-55" >
+      <Size>HTD-14M-4578-55</Size>
+      <Width>55</Width>
+      <Teeth>327</Teeth>
+    </Member>
+	
+		 <Member moniker="HTD-14M-966-85" >
+      <Size>HTD-14M-966-85</Size>
+      <Width>85</Width>
+      <Teeth>69</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1190-85" >
+      <Size>HTD-14M-1190-85</Size>
+      <Width>85</Width>
+      <Teeth>85</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1400-85" >
+      <Size>HTD-14M-1400-85</Size>
+      <Width>85</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1610-85" >
+      <Size>HTD-14M-1610-85</Size>
+      <Width>85</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1778-85" >
+      <Size>HTD-14M-1778-85</Size>
+      <Width>85</Width>
+      <Teeth>127</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1890-85" >
+      <Size>HTD-14M-1890-85</Size>
+      <Width>85</Width>
+      <Teeth>135</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2100-85" >
+      <Size>HTD-14M-2100-85</Size>
+      <Width>85</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2450-85" >
+      <Size>HTD-14M-2450-85</Size>
+      <Width>85</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2590-85" >
+      <Size>HTD-14M-2590-85</Size>
+      <Width>85</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2800-85" >
+      <Size>HTD-14M-2800-85</Size>
+      <Width>85</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3150-85" >
+      <Size>HTD-14M-3150-85</Size>
+      <Width>85</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3500-85" >
+      <Size>HTD-14M-3500-85</Size>
+      <Width>85</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3850-85" >
+      <Size>HTD-14M-3850-85</Size>
+      <Width>85</Width>
+      <Teeth>275</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4326-85" >
+      <Size>HTD-14M-4326-85</Size>
+      <Width>85</Width>
+      <Teeth>309</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4578-85" >
+      <Size>HTD-14M-4578-85</Size>
+      <Width>85</Width>
+      <Teeth>327</Teeth>
+    </Member>
+	
+		 <Member moniker="HTD-14M-966-115" >
+      <Size>HTD-14M-966-115</Size>
+      <Width>115</Width>
+      <Teeth>69</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1190-115" >
+      <Size>HTD-14M-1190-115</Size>
+      <Width>115</Width>
+      <Teeth>85</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1400-115" >
+      <Size>HTD-14M-1400-115</Size>
+      <Width>115</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1610-115" >
+      <Size>HTD-14M-1610-115</Size>
+      <Width>115</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1778-115" >
+      <Size>HTD-14M-1778-115</Size>
+      <Width>115</Width>
+      <Teeth>127</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1890-40" >
+      <Size>HTD-14M-1890-40</Size>
+      <Width>115</Width>
+      <Teeth>135</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2100-115" >
+      <Size>HTD-14M-2100-115</Size>
+      <Width>115</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2450-115" >
+      <Size>HTD-14M-2450-115</Size>
+      <Width>115</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2590-115" >
+      <Size>HTD-14M-2590-115</Size>
+      <Width>115</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2800-115" >
+      <Size>HTD-14M-2800-115</Size>
+      <Width>115</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3150-115" >
+      <Size>HTD-14M-3150-115</Size>
+      <Width>115</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3500-115" >
+      <Size>HTD-14M-3500-115</Size>
+      <Width>115</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3850-115" >
+      <Size>HTD-14M-3850-115</Size>
+      <Width>115</Width>
+      <Teeth>275</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4326-115" >
+      <Size>HTD-14M-4326-115</Size>
+      <Width>115</Width>
+      <Teeth>309</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4578-115" >
+      <Size>HTD-14M-4578-115</Size>
+      <Width>115</Width>
+      <Teeth>327</Teeth>
+    </Member>
+	
+	 <Member moniker="HTD-14M-966-170" >
+      <Size>HTD-14M-966-170</Size>
+      <Width>170</Width>
+      <Teeth>69</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1190-170" >
+      <Size>HTD-14M-1190-170</Size>
+      <Width>170</Width>
+      <Teeth>85</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1400-170" >
+      <Size>HTD-14M-1400-170</Size>
+      <Width>170</Width>
+      <Teeth>100</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1610-170" >
+      <Size>HTD-14M-1610-170</Size>
+      <Width>170</Width>
+      <Teeth>115</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1778-170" >
+      <Size>HTD-14M-1778-170</Size>
+      <Width>170</Width>
+      <Teeth>127</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-1890-170" >
+      <Size>HTD-14M-1890-170</Size>
+      <Width>170</Width>
+      <Teeth>135</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2100-170" >
+      <Size>HTD-14M-2100-170</Size>
+      <Width>170</Width>
+      <Teeth>150</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2450-170" >
+      <Size>HTD-14M-2450-170</Size>
+      <Width>170</Width>
+      <Teeth>175</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2590-170" >
+      <Size>HTD-14M-2590-170</Size>
+      <Width>170</Width>
+      <Teeth>185</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-2800-170" >
+      <Size>HTD-14M-2800-170</Size>
+      <Width>170</Width>
+      <Teeth>200</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3150-170" >
+      <Size>HTD-14M-3150-170</Size>
+      <Width>170</Width>
+      <Teeth>225</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3500-170" >
+      <Size>HTD-14M-3500-170</Size>
+      <Width>170</Width>
+      <Teeth>250</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-3850-170" >
+      <Size>HTD-14M-3850-170</Size>
+      <Width>170</Width>
+      <Teeth>275</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4326-170" >
+      <Size>HTD-14M-4326-170</Size>
+      <Width>170</Width>
+      <Teeth>309</Teeth>
+    </Member>
+    <Member moniker="HTD-14M-4578-170" >
+      <Size>HTD-14M-4578-170</Size>
+      <Width>170</Width>
+      <Teeth>327</Teeth>
+    </Member>
+  </Members>
+</CustomFamily>

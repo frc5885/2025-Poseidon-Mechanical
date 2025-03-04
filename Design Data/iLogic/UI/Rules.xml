@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>Rules</Name>
+  <Guid>12a8b5e9-b849-4e25-bee1-208f52c8c77d</Guid>
+  <Items>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>Models (IPT, IAM)</Name>
+      <Guid>54a844f5-a5d3-4af5-9bd4-049181e009e8</Guid>
+      <Items>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Alter Weight</Name>
+          <Guid>70ea42fe-850f-42a8-b39e-1bde8ed73016</Guid>
+          <ToolTip>Click to change the weight of the Purchased Component</ToolTip>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>DensityOfPurchasedComponents</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\DensityOfPurchasedComponents.vb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Ground All Components</Name>
+          <Guid>a07c1182-bde2-4d4e-9e95-6a0e1ff8d78e</Guid>
+          <ToolTip>Grounds all children in an assembly.</ToolTip>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>AutoGround</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\AutoGround.txt</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Replace Derive Component</Name>
+          <Guid>d7b897b3-b195-4f76-bafd-061f73d9f0f0</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>ReplaceDeriveComponent</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\ReplaceDeriveComponent.vb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Create Serviceable View Rep</Name>
+          <Guid>c8cc61a9-f01c-4465-be1f-b9495c432adf</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>ServiceableViewRep</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\ServiceableViewRep.txt</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Export All Components As Jpg</Name>
+          <Guid>1269a1c2-9066-474a-9cdf-544a06c7f043</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>ExportAllComponentsAsJpg</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\ExportAllComponentsAsJpg.txt</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Toggle Background Color for Screenshot</Name>
+          <Guid>e879dd79-bf1e-43c1-869e-d10a9fe5fcf4</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>ToggleBackgroundDisplay</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\ToggleBackgroundDisplay.vb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Import 3D model BOM Customization</Name>
+          <Guid>cd1e16c8-d698-4623-a521-0405cd830be4</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>ImportLatestBomCustomization</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\ImportLatestBomCustomization.txt</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Generate Simulation Stepfile - Internal Customer</Name>
+          <Guid>85012ecc-50b2-4163-96db-c6ca4885d5fd</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>CreatePositionalRepAssy</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\CreatePositionalRepAssy.iLogicVb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Generate Simulation Stepfile - External Customer</Name>
+          <Guid>5b378377-0da8-4a90-9259-be1441592db9</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>CreatePositionalRepAssyProprietary</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\CreatePositionalRepAssyProprietary.iLogicVb</Path>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>Drawings (IDW)</Name>
+      <Guid>1450d420-d908-47a6-9095-736510f167d2</Guid>
+      <Items>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Switch Title Block</Name>
+          <Guid>687324f1-fa46-4c85-a724-48e15725c848</Guid>
+          <ToolTip>Replaces existing title block with CLTB11 or CLTB12</ToolTip>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>ChangeTitleblock_OldDrawingsV2</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\ChangeTitleblock_OldDrawingsV2.txt</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Batch Save</Name>
+          <Guid>c3837cc5-12fa-4755-9aea-18ea47fa7fe5</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>FixDrawings_CODE_SelectFiles</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\FixDrawings_CODE_SelectFiles.txt</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Trick Drawing</Name>
+          <Guid>437026eb-f89c-42ff-b54d-fcda1223afc8</Guid>
+          <ToolTip>Use for tricking drawing instead of Replace Reference Model</ToolTip>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>TrickADrawing</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\TrickADrawing.vb</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Revison Table - Create/Add Row</Name>
+          <Guid>4956b0d1-401b-44a3-b9ad-e59dca986400</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>RevisionTable</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\FormRules\RevisionTable.txt</Path>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+          <Name>Add PM Bill of Material</Name>
+          <Guid>b2d166d7-3098-4780-aa35-48e5af9bfc1b</Guid>
+          <Image>
+            <BitmapByteArray />
+          </Image>
+          <TextVisible>true</TextVisible>
+          <RuleName>AddPMBOMToDrawing</RuleName>
+          <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+          <Path>\\cadshare\CAD Configuration\i-Logic\Rules\AddPMBOMToDrawing.Vb</Path>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>false</Modal>
+</FormSpecification>

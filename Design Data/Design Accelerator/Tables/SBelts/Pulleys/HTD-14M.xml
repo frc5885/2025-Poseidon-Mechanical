@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFamily revision="1.0" category="SBELTSPULLEY" measuresystem="metric" thumbnail="Unflanged.jpg" name="%1%" desc="%2%" flange="none">
+  <Parameters>
+    <DisplayName src="fixed" dt="string" units="ul">%2%</DisplayName>
+    <Size src="table" dt="string" units="ul" />
+    <z src="table" dt="number" units="ul" />
+    <pb src="fixed" dt="number" units="mm">14</pb>
+    <hg src="fixed" dt="number" units="mm">6.20</hg>
+    <bw src="fixed" dt="number" units="mm">8.65</bw>
+    <fi src="fixed" dt="number" units="deg">7.0</fi>
+    <rb src="fixed" dt="number" units="mm">4.65</rb>
+    <rt src="fixed" dt="number" units="mm">1.4</rt>
+    <a src="fixed" dt="number" units="mm">2</a>
+    <b src="table" dt="number" units="mm" />
+    <bf src="table" dt="number" units="mm" />
+  </Parameters>
+  <Members>
+    <Member moniker="28-HTD-14M-40">
+      <Size>28-HTD-14M-40</Size>
+      <z>28</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="29-HTD-14M-40">
+      <Size>29-HTD-14M-40</Size>
+      <z>29</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="30-HTD-14M-40">
+      <Size>30-HTD-14M-40</Size>
+      <z>30</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="32-HTD-14M-40">
+      <Size>32-HTD-14M-40</Size>
+      <z>32</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="34-HTD-14M-40">
+      <Size>34-HTD-14M-40</Size>
+      <z>34</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="36-HTD-14M-40">
+      <Size>36-HTD-14M-40</Size>
+      <z>36</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="38-HTD-14M-40">
+      <Size>38-HTD-14M-40</Size>
+      <z>38</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="40-HTD-14M-40">
+      <Size>40-HTD-14M-40</Size>
+      <z>40</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="44-HTD-14M-40">
+      <Size>44-HTD-14M-40</Size>
+      <z>44</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="48-HTD-14M-40">
+      <Size>48-HTD-14M-40</Size>
+      <z>48</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="56-HTD-14M-40">
+      <Size>56-HTD-14M-40</Size>
+      <z>56</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="64-HTD-14M-40">
+      <Size>64-HTD-14M-40</Size>
+      <z>64</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="72-HTD-14M-40">
+      <Size>72-HTD-14M-40</Size>
+      <z>72</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="80-HTD-14M-40">
+      <Size>80-HTD-14M-40</Size>
+      <z>80</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="90-HTD-14M-40">
+      <Size>90-HTD-14M-40</Size>
+      <z>90</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="112-HTD-14M-40">
+      <Size>112-HTD-14M-40</Size>
+      <z>112</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="144-HTD-14M-40">
+      <Size>144-HTD-14M-40</Size>
+      <z>144</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="168-HTD-14M-40">
+      <Size>168-HTD-14M-40</Size>
+      <z>168</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	 <Member moniker="192-HTD-14M-40">
+      <Size>192-HTD-14M-40</Size>
+      <z>192</z>
+      <b>40</b>
+      <bf>54</bf>
+    </Member>
+	
+	 <Member moniker="28-HTD-14M-55">
+      <Size>28-HTD-14M-55</Size>
+      <z>28</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="29-HTD-14M-55">
+      <Size>29-HTD-14M-55</Size>
+      <z>29</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="30-HTD-14M-55">
+      <Size>30-HTD-14M-55</Size>
+      <z>30</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="32-HTD-14M-55">
+      <Size>32-HTD-14M-55</Size>
+      <z>32</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="34-HTD-14M-55">
+      <Size>34-HTD-14M-55</Size>
+      <z>34</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="36-HTD-14M-55">
+      <Size>36-HTD-14M-55</Size>
+      <z>36</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="38-HTD-14M-55">
+      <Size>38-HTD-14M-55</Size>
+      <z>38</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="40-HTD-14M-55">
+      <Size>40-HTD-14M-55</Size>
+      <z>40</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="44-HTD-14M-55">
+      <Size>44-HTD-14M-55</Size>
+      <z>44</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="48-HTD-14M-55">
+      <Size>48-HTD-14M-55</Size>
+      <z>48</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="56-HTD-14M-55">
+      <Size>56-HTD-14M-55</Size>
+      <z>56</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="64-HTD-14M-55">
+      <Size>64-HTD-14M-55</Size>
+      <z>64</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="72-HTD-14M-55">
+      <Size>72-HTD-14M-55</Size>
+      <z>72</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="80-HTD-14M-55">
+      <Size>80-HTD-14M-55</Size>
+      <z>80</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="90-HTD-14M-55">
+      <Size>90-HTD-14M-55</Size>
+      <z>90</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="112-HTD-14M-55">
+      <Size>112-HTD-14M-55</Size>
+      <z>112</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="144-HTD-14M-55">
+      <Size>144-HTD-14M-55</Size>
+      <z>144</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="168-HTD-14M-55">
+      <Size>168-HTD-14M-55</Size>
+      <z>168</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	 <Member moniker="192-HTD-14M-55">
+      <Size>192-HTD-14M-55</Size>
+      <z>192</z>
+      <b>55</b>
+      <bf>70</bf>
+    </Member>
+	
+	 <Member moniker="28-HTD-14M-85">
+      <Size>28-HTD-14M-85</Size>
+      <z>28</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="29-HTD-14M-85">
+      <Size>29-HTD-14M-85</Size>
+      <z>29</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="30-HTD-14M-85">
+      <Size>30-HTD-14M-85</Size>
+      <z>30</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="32-HTD-14M-85">
+      <Size>32-HTD-14M-85</Size>
+      <z>32</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="34-HTD-14M-85">
+      <Size>34-HTD-14M-85</Size>
+      <z>34</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="36-HTD-14M-85">
+      <Size>36-HTD-14M-85</Size>
+      <z>36</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="38-HTD-14M-85">
+      <Size>38-HTD-14M-85</Size>
+      <z>38</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="40-HTD-14M-85">
+      <Size>40-HTD-14M-85</Size>
+      <z>40</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="44-HTD-14M-85">
+      <Size>44-HTD-14M-85</Size>
+      <z>44</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="48-HTD-14M-85">
+      <Size>48-HTD-14M-85</Size>
+      <z>48</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="56-HTD-14M-85">
+      <Size>56-HTD-14M-85</Size>
+      <z>56</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="64-HTD-14M-85">
+      <Size>64-HTD-14M-85</Size>
+      <z>64</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="72-HTD-14M-85">
+      <Size>72-HTD-14M-85</Size>
+      <z>72</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="80-HTD-14M-85">
+      <Size>80-HTD-14M-85</Size>
+      <z>80</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="90-HTD-14M-85">
+      <Size>90-HTD-14M-85</Size>
+      <z>90</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="112-HTD-14M-85">
+      <Size>112-HTD-14M-85</Size>
+      <z>112</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="144-HTD-14M-85">
+      <Size>144-HTD-14M-85</Size>
+      <z>144</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="168-HTD-14M-85">
+      <Size>168-HTD-14M-85</Size>
+      <z>168</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="192-HTD-14M-85">
+      <Size>192-HTD-14M-85</Size>
+      <z>192</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	
+		 <Member moniker="28-HTD-14M-85">
+      <Size>28-HTD-14M-85</Size>
+      <z>28</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="29-HTD-14M-85">
+      <Size>29-HTD-14M-85</Size>
+      <z>29</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="30-HTD-14M-85">
+      <Size>30-HTD-14M-85</Size>
+      <z>30</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="32-HTD-14M-85">
+      <Size>32-HTD-14M-85</Size>
+      <z>32</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="34-HTD-14M-85">
+      <Size>34-HTD-14M-85</Size>
+      <z>34</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="36-HTD-14M-85">
+      <Size>36-HTD-14M-85</Size>
+      <z>36</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="38-HTD-14M-85">
+      <Size>38-HTD-14M-85</Size>
+      <z>38</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="40-HTD-14M-85">
+      <Size>40-HTD-14M-85</Size>
+      <z>40</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="44-HTD-14M-85">
+      <Size>44-HTD-14M-85</Size>
+      <z>44</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="48-HTD-14M-85">
+      <Size>48-HTD-14M-85</Size>
+      <z>48</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="56-HTD-14M-85">
+      <Size>56-HTD-14M-85</Size>
+      <z>56</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="64-HTD-14M-85">
+      <Size>64-HTD-14M-85</Size>
+      <z>64</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="72-HTD-14M-85">
+      <Size>72-HTD-14M-85</Size>
+      <z>72</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="80-HTD-14M-85">
+      <Size>80-HTD-14M-85</Size>
+      <z>80</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="90-HTD-14M-85">
+      <Size>90-HTD-14M-85</Size>
+      <z>90</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="112-HTD-14M-85">
+      <Size>112-HTD-14M-85</Size>
+      <z>112</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="144-HTD-14M-85">
+      <Size>144-HTD-14M-85</Size>
+      <z>144</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="168-HTD-14M-85">
+      <Size>168-HTD-14M-85</Size>
+      <z>168</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	 <Member moniker="192-HTD-14M-85">
+      <Size>192-HTD-14M-85</Size>
+      <z>192</z>
+      <b>85</b>
+      <bf>102</bf>
+    </Member>
+	
+	<Member moniker="28-HTD-14M-115">
+      <Size>28-HTD-14M-115</Size>
+      <z>28</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="29-HTD-14M-115">
+      <Size>29-HTD-14M-115</Size>
+      <z>29</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="30-HTD-14M-115">
+      <Size>30-HTD-14M-115</Size>
+      <z>30</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="32-HTD-14M-115">
+      <Size>32-HTD-14M-115</Size>
+      <z>32</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="34-HTD-14M-115">
+      <Size>34-HTD-14M-115</Size>
+      <z>34</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="36-HTD-14M-115">
+      <Size>36-HTD-14M-115</Size>
+      <z>36</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="38-HTD-14M-115">
+      <Size>38-HTD-14M-115</Size>
+      <z>38</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="40-HTD-14M-115">
+      <Size>40-HTD-14M-115</Size>
+      <z>40</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="44-HTD-14M-115">
+      <Size>44-HTD-14M-115</Size>
+      <z>44</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="48-HTD-14M-115">
+      <Size>48-HTD-14M-115</Size>
+      <z>48</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="56-HTD-14M-115">
+      <Size>56-HTD-14M-115</Size>
+      <z>56</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="64-HTD-14M-115">
+      <Size>64-HTD-14M-115</Size>
+      <z>64</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="72-HTD-14M-115">
+      <Size>72-HTD-14M-115</Size>
+      <z>72</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="80-HTD-14M-115">
+      <Size>80-HTD-14M-115</Size>
+      <z>80</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="90-HTD-14M-115">
+      <Size>90-HTD-14M-115</Size>
+      <z>90</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="112-HTD-14M-115">
+      <Size>112-HTD-14M-115</Size>
+      <z>112</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="144-HTD-14M-115">
+      <Size>144-HTD-14M-115</Size>
+      <z>144</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="168-HTD-14M-115">
+      <Size>168-HTD-14M-115</Size>
+      <z>168</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	 <Member moniker="192-HTD-14M-115">
+      <Size>192-HTD-14M-115</Size>
+      <z>192</z>
+      <b>115</b>
+      <bf>135</bf>
+    </Member>
+	
+		<Member moniker="28-HTD-14M-170">
+      <Size>28-HTD-14M-170</Size>
+      <z>28</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="29-HTD-14M-170">
+      <Size>29-HTD-14M-170</Size>
+      <z>29</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="30-HTD-14M-170">
+      <Size>30-HTD-14M-170</Size>
+      <z>30</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="32-HTD-14M-170">
+      <Size>32-HTD-14M-170</Size>
+      <z>32</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="34-HTD-14M-170">
+      <Size>34-HTD-14M-170</Size>
+      <z>34</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="36-HTD-14M-170">
+      <Size>36-HTD-14M-170</Size>
+      <z>36</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="38-HTD-14M-170">
+      <Size>38-HTD-14M-170</Size>
+      <z>38</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="40-HTD-14M-170">
+      <Size>40-HTD-14M-170</Size>
+      <z>40</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="44-HTD-14M-170">
+      <Size>44-HTD-14M-170</Size>
+      <z>44</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="48-HTD-14M-170">
+      <Size>48-HTD-14M-170</Size>
+      <z>48</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="56-HTD-14M-170">
+      <Size>56-HTD-14M-170</Size>
+      <z>56</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="64-HTD-14M-170">
+      <Size>64-HTD-14M-170</Size>
+      <z>64</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="72-HTD-14M-170">
+      <Size>72-HTD-14M-170</Size>
+      <z>72</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="80-HTD-14M-170">
+      <Size>80-HTD-14M-170</Size>
+      <z>80</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="90-HTD-14M-170">
+      <Size>90-HTD-14M-170</Size>
+      <z>90</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="112-HTD-14M-170">
+      <Size>112-HTD-14M-170</Size>
+      <z>112</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="144-HTD-14M-170">
+      <Size>144-HTD-14M-170</Size>
+      <z>144</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="168-HTD-14M-170">
+      <Size>168-HTD-14M-170</Size>
+      <z>168</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+	 <Member moniker="192-HTD-14M-170">
+      <Size>192-HTD-14M-170</Size>
+      <z>192</z>
+      <b>170</b>
+      <bf>190</bf>
+    </Member>
+  </Members>
+</CustomFamily>

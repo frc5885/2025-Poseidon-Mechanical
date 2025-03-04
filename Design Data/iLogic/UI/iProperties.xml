@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FormSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>iProperties</Name>
+  <Guid>0079c76a-dcff-48a8-890c-65e0de1aaa64</Guid>
+  <Items>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Number (Read-Only)</Name>
+      <Guid>faa4128c-401e-4429-934c-7dc1a617efea</Guid>
+      <ReadOnly>true</ReadOnly>
+      <PropertyName>Manager</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Name (Read-Only)</Name>
+      <Guid>5cf8dc9f-511d-42ac-99b8-b7fa78dfaf15</Guid>
+      <ReadOnly>true</ReadOnly>
+      <PropertyName>Description</PropertyName>
+      <PropertySetName>Project</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Paint Color (Read-Only)</Name>
+      <Guid>f0fc3e99-65be-49ef-9ed5-1cd9dad82111</Guid>
+      <ToolTip>This the paint Color that will appear on the Drawings</ToolTip>
+      <ReadOnly>true</ReadOnly>
+      <PropertyName>FinishProperty</PropertyName>
+      <PropertySetName>Custom</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="NumericPropertyControlSpec">
+      <Name>Mass (kg) (Read-Only)</Name>
+      <Guid>26f1a8b8-c4fa-4f86-89c6-04761100780e</Guid>
+      <ReadOnly>true</ReadOnly>
+      <PropertyName>CN_MASS</PropertyName>
+      <PropertySetName>Custom</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Centerline Properties</Name>
+      <Guid>f8d7d665-d9b1-4875-ba99-38c06823b2cd</Guid>
+      <Font>
+        <FamilyName>Tahoma</FamilyName>
+        <Size>3.75</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Designer ( - for null value)</Name>
+      <Guid>7eeb6db6-3e8b-415a-902e-456f6f31e239</Guid>
+      <PropertyName>Mfg. Approved By</PropertyName>
+      <PropertySetName>Status</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Detailer ( - for null value)</Name>
+      <Guid>41adf7ae-7f20-4352-a398-93727e871e1a</Guid>
+      <PropertyName>Author</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>SCF ( CM/P/PM/S/SM/R, _ for null value)</Name>
+      <Guid>9a6548ea-2041-4696-a3d0-42e56e8c62a0</Guid>
+      <PropertyName>Eng. Approved By</PropertyName>
+      <PropertySetName>Status</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Manufacturer ( - for null)</Name>
+      <Guid>3274bb12-31ca-47bd-a8f2-c2e3c3a25ed0</Guid>
+      <PropertyName>Keywords</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Manufacturer Part Number ( _ for null value)</Name>
+      <Guid>baa5a651-1e44-409e-a12c-e996e3e76d2e</Guid>
+      <PropertyName>Subject</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Serviceable ( _ for N, S for Y)</Name>
+      <Guid>8a2c173c-07d8-457a-bb1f-09dec187c45b</Guid>
+      <PropertyName>CN_SERVICEABLE</PropertyName>
+      <PropertySetName>Custom</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Description</Name>
+      <Guid>caebe388-cf33-4869-a21e-90af80cd8cfa</Guid>
+      <Font>
+        <FamilyName>Arial</FamilyName>
+        <Size>3.75</Size>
+        <Bold>false</Bold>
+        <Italic>false</Italic>
+      </Font>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>First Description ( _ for null value)</Name>
+      <Guid>0681f577-aedd-4e9f-b4bb-d40ea912f6b8</Guid>
+      <PropertyName>FIRST_DESCRIPTION</PropertyName>
+      <PropertySetName>Custom</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Second Description ( _ for null value)</Name>
+      <Guid>23370187-cdac-4e9b-9beb-e31cf4668cac</Guid>
+      <PropertyName>SECOND_DESCRIPTION</PropertyName>
+      <PropertySetName>Custom</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Third Description ( _ for null value)</Name>
+      <Guid>e1323172-a8b9-4ebb-a68d-30522fbc9993</Guid>
+      <PropertyName>THIRD_DESCRIPTION</PropertyName>
+      <PropertySetName>Custom</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Customer Number</Name>
+      <Guid>a6360911-6853-4014-adf5-7d02807018d6</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="TextPropertyControlSpec">
+      <Name>Customer Number ( _ for null value)</Name>
+      <Guid>ad9020fb-f266-413b-ba74-78d9fca75df8</Guid>
+      <PropertyName>Category</PropertyName>
+      <PropertySetName>Summary</PropertySetName>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>For Drawings Only</Name>
+      <Guid>5c8a75bc-02c5-4274-91f5-970c2d0e206f</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="ControlGroupSpec">
+      <Name>For Drawings, Fill before Printing</Name>
+      <Guid>14813600-5ac3-4bef-ad19-499ae356a003</Guid>
+      <ToolTip>For Drawings, Fill before Printing</ToolTip>
+      <Items>
+        <UiElementSpec xsi:type="TextPropertyControlSpec">
+          <Name>Project#</Name>
+          <Guid>0973de78-79f9-4e07-9e5b-6a3885e42090</Guid>
+          <PropertyName>Project#</PropertyName>
+          <PropertySetName>Custom</PropertySetName>
+        </UiElementSpec>
+        <UiElementSpec xsi:type="TextPropertyControlSpec">
+          <Name>Leg#</Name>
+          <Guid>d80d6283-cfa0-4a17-833f-0a568854e411</Guid>
+          <PropertyName>Leg#</PropertyName>
+          <PropertySetName>Custom</PropertySetName>
+        </UiElementSpec>
+      </Items>
+      <CaptionImage>
+        <BitmapByteArray />
+      </CaptionImage>
+      <BordersVisible>true</BordersVisible>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="EmptySpaceSpec">
+      <Name>Automated Rules</Name>
+      <Guid>c2684235-bf73-4288-a32c-b0e0871b0c3d</Guid>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Update Designer Name</Name>
+      <Guid>3a7c6233-70cb-42e5-91c1-07f9962f98e5</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>DesignerName</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\cadshare\CAD Configuration\i-Logic\Rules\DesignerName.txt</Path>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Populate Description Fields</Name>
+      <Guid>29231962-1a40-4019-89f9-2055753fffbe</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>AddDescriptionFields</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\cadshare\CAD Configuration\i-Logic\Rules\AddDescriptionFields.txt</Path>
+    </UiElementSpec>
+    <UiElementSpec xsi:type="iLogicExternalRuleControlSpec">
+      <Name>Mfg Name - Change to Upper Case</Name>
+      <Guid>344e9fdf-a5e1-4b17-a17f-4c5d1db2ea62</Guid>
+      <Image>
+        <BitmapByteArray />
+      </Image>
+      <TextVisible>true</TextVisible>
+      <RuleName>MFGNameUCASE</RuleName>
+      <RuleButtonBehavior>RunRule</RuleButtonBehavior>
+      <Path>\\cadshare\CAD Configuration\i-Logic\Rules\MFGNameUCASE.txt</Path>
+    </UiElementSpec>
+  </Items>
+  <StyleAndSkinName>
+    <StyleName>Default</StyleName>
+  </StyleAndSkinName>
+  <AllowCustomization>true</AllowCustomization>
+  <PredefinedButtons>Done</PredefinedButtons>
+  <Modal>false</Modal>
+</FormSpecification>
